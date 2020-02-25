@@ -1,0 +1,22 @@
+{% extends "entries/single-blog-base.html" %}
+{% block content %}
+    <!--================Blog Area =================-->
+    <section class="blog_area section-gap single-post-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="main_blog_details">
+                        
+                    </div>
+                    <div class="main_blog_details">
+                        <form method="POST">
+                            logged out
+                            <button><a href="{% url 'login' %}"></a>Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================Blog Area =================-->
+{% endblock %}
